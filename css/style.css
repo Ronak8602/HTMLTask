@@ -1,0 +1,137 @@
+* {
+  font-family: "Novel Display", sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#heading {
+  margin: 0px;
+  color: white;
+  font-size: 5vh;
+  font-weight: 200;
+  word-spacing: 2;
+}
+
+div.scaffold {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.top {
+  background-color: rgb(51, 153, 203);
+  padding: 3vh;
+}
+
+ul.bar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-weight: 700;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+li.icon {
+  float: right;
+  padding: 10px 16px 10px 0px;
+}
+
+div.body {
+  padding: 2vh 5vh 2vh 5vh;
+}
+
+div.news {
+  padding: 6px;
+  min-height: 100px;
+  max-width: 700px;
+  overflow: hidden;
+  border: 1px solid rgb(217, 217, 217);
+}
+
+ul.news_list {
+  padding: 0px 4px 0px 16px;
+}
+
+p.news_heading {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 0px 0px 10px;
+  margin: 0px;
+}
+
+li.info {
+  font-size: 14px;
+  color: black;
+  list-style-type: "-";
+  padding: 6px 6px 16px 6px;
+  text-align: justify;
+}
+
+p.welcome {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+p.para_item {
+  max-width: 1000px;
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 667px) {
+  li.icon {
+    float: right;
+    padding: 10px 15px 10px 0px;
+  }
+
+  div.body {
+    padding: 2vh 2vh 2vh 2vh;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  ul.bar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 6px;
+    overflow: hidden;
+    background-color: #333;
+    height: 5vh;
+  }
+  li a {
+    font-weight: 700;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+  li.icon {
+    float: right;
+    padding: 1px 6px 1px 0px;
+  }
+}
