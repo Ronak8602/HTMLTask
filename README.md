@@ -1,2 +1,2 @@
 # HTMLTask
-Sample HTML Task 
+Technovert Website HTML and CSS task
